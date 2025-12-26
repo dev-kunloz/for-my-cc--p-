@@ -1,0 +1,58 @@
+.typewriter-container {
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.message-line {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #6a4c93;
+    /* Darker purple for better contrast */
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+
+.message-line.completed {
+    opacity: 0.9;
+}
+
+.message-line.typing {
+    display: flex;
+    align-items: center;
+}
+
+.cursor {
+    display: inline-block;
+    margin-left: 3px;
+    animation: blink 1s infinite;
+    color: #b395d3;
+    font-weight: 400;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .typewriter-container {
+        padding: 1.5rem;
+    }
+
+    .message-line {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
