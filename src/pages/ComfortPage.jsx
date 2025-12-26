@@ -10,7 +10,7 @@ const ComfortPage = () => {
     const { user, logout } = useAuth();
 
     const messages = [
-        `Hey ${user?.displayName || 'sis'} 💕`,
+        `Hey sis 💕`,
         "I know you're not feeling great right now 🌸",
         "But I want you to know you're incredibly strong 💪",
         "This too shall pass, and I'm here for you 🤗",
